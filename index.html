@@ -2,36 +2,53 @@
 <html>
     <head>
         <title>My First HTML Page</title>
+        <style>
+            .bold{
+                color:#000999;
+            }
+            
+            .table{
+                border:1px solid red
+            }
+            
+            .pcolor{
+                background-color:aqua;
+            }
+            
+            body {
+               background-color:indianred; 
+            }
+        </style>
     </head>
     
-    <body style="background-color: indianred">
-        <header style="background-color: indianred">
+    <body>
+        <header>
             <img class="Dogs" src="https://image.shutterstock.com/image-vector/happy-dog-cartoon-260nw-399897679.jpg" style= "height:100px" >
             <h3>Dogs</h3>
         </header>
-        <article style="background-color: indianred">
-            <h1><strong style="color:#000999">Beagles</strong></h1>
-               <p>
+        <article>
+            <h1><strong class="bold">Beagles</strong></h1>
+               <p class="pcolor">
                 It is a pretty, moderately sized dog that looks like a miniature foxhound. It is one of the most popular breed in U.S. Beagles have broader head and short square muzzle. This breed stands at a height between 14-16 inches and weighs up to 11 kg. Their eyes are large and ears are has long low-set ears. They comes in varieties of colors including tri-color, white, red and lemon. But the tri-color, brown shading on black and white parts being most common. The Beagle is an extremely social and intelligent dog. They make strong bond with family members. It is also a great kid-friendly breed. They are very gentle and watchful, love to involve in the games with children. This active breed also loves to explore the outdoors. With proper guidance they could get along well with other dogs. But owners must keep away the small pets from beagle because this breed is very good at hunting.
             </p>
         </article>
         <hr>
         
-        <section style="background-color: indianred">
+        <section>
              <h1>
-                <strong style="color:#000999">Border Collies</strong>
+                <strong class="bold">Border Collies</strong>
             </h1>
-            <p>
+            <p class="pcolor">
                 Even if Beagles are popular, you shoud get other types of dogs like Border Collies. Border Collies are very good dogs that will get the job done. They can herd sheep very well since they are farmdogs.
             </p>
         </section>
-        <section style="background-color: indianred">
+        <section>
             <div class= "Image of dogs" id= "Border-Collie">
                 <img class="Dogs" src="Dog2.jpg" style="height:50%">
             </div>
             <hr>
             <h4><strong>A Dogs Favorite Foods</strong></h4>
-            <ol>
+            <ol class="pcolor">
                 <li>Meat</li>
                 <li>Dog Food</li>
                 <li>Treats</li>
@@ -42,27 +59,27 @@
                 <h2>My Pet</h2>
             </span>
             <h4><strong>Why I Like My Pet Popeye</strong></h4>
-            <ul>
+            <ul class="pcolor">
                 <li>He is adorable.</li>
                 <li>He loves to play.</li>
                 <li>He loves to cuddle.</li>
                 <li>He loves me.</li>
             </ul>
         </section>
-        <article style="background-color: indianred">
+        <article>
             <table>
                 <tr>
                     <th style="border:1px solid red; background-color: aqua">Other Dogs to look For</th>
                 </tr>
                 <tr>
-                    <th style="border:1px solid red">Border Collie</th>
-                    <th style="border:1px solid red">Beagle</th>
-                    <th style="border:1px solid red">Greman Sherpard</th>
+                    <th class="table">Border Collie</th>
+                    <th class="table">Beagle</th>
+                    <th class="table">Greman Sherpard</th>
                 </tr>
                 <tr>
-                    <td style="border:1px solid red">They are good sheepdogs</td>
-                    <td style="border:1px solid red">Very cute</td>
-                    <td style="border:1px solid red">Very furry</td>
+                    <td class="table">They are good sheepdogs</td>
+                    <td class="table">Very cute</td>
+                    <td class="table">Very furry</td>
                 </tr>
             </table>
         </article>
